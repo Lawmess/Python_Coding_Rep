@@ -13,3 +13,5 @@
 2024-06-03 15:09:51.096 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
 2024-06-03 15:10:35.072 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2024-06-03 15:10:35.647 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-03 15:36:38.633 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-03 15:36:39.796 [info] Extension host with pid 495 exiting with code 0

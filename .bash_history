@@ -58,3 +58,49 @@ pip install flask
 pip install python3 flask
 install flask
 pip install
+/bin/python3 /home/lawmess/CEHW2.py
+pip install numpy
+python3-numpy
+python3-numpy as np
+python3 numpy
+python3-numpy
+python3-numpy as np
+python3 -m venv myenv
+python3 numpy as np
+python3-numpy 
+pip install numpy
+/bin/python3 /home/lawmess/Python_project/Trial1.py
+git remote add origin https://github.com/your-username/your-repo-name.git
+git remote add origin https://github.com/Lawmess/Python_Coding_Rep
+git remote add origin https://github.com/Lawmess/Python_coding_Rep
+git remote add origin https://github.com/Lawmess/Python_Coding_Rep.git
+git init
+git -commit
+git --commit
+ls
+cls
+clear
+git remote add origin https://github.com/Lawmess/Python_Coding_Rep.git
+git add.
+git add .
+Trial1.py
+git add .
+git commit -m
+git commit -Trial1.py
+/bin/python3 /home/lawmess/Python_project/Trial1.py
+git init
+git add .
+git commit -m
+git commit -m "Initial"
+git remote add origin https://github.com/Lawmess/Pytho_Coding_Rep.git
+git push -u origin master
+git add .Trial1.py
+git init
+git push
+git remote origin https://github.com/Lawmess/Python_Coding
+git add .
+git commit -m "Ini"
+git remote origin https://github.com/Lawmess//home/lawmess/Python_project/Trial1.py.git
+git add . 
+git commit -m "First Code"
+git push -u origin master

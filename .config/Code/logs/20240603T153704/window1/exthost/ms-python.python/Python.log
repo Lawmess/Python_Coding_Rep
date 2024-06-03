@@ -1,0 +1,8 @@
+2024-06-03 15:37:35.931 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-06-03 15:37:35.931 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-06-03 15:37:35.931 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-06-03 15:37:35.931 [info] Experiment 'pythonTestAdapter' is active
+2024-06-03 15:37:35.949 [info] Python interpreter path: /bin/python3
+2024-06-03 15:37:57.391 [info] Starting Pylance language server.
+2024-06-03 15:38:58.838 [info] CreateEnv Trigger - Workspace not found for /home/lawmess/Python_project/Trial1.py
+2024-06-03 15:38:58.990 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
