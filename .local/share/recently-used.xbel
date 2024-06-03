@@ -43,4 +43,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/lawmess/Python_project" added="2024-06-03T11:54:00.541290Z" modified="2024-06-03T11:54:00.541397Z" visited="2024-06-03T11:54:00.541293Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-06-03T11:54:00.541300Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

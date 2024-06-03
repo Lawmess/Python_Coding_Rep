@@ -1,3 +1,9 @@
 2024-06-03 15:37:11.714 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 22ms.
 2024-06-03 15:37:15.578 [info] Started local extension host with pid 7566.
 2024-06-03 15:38:11.229 [info] [perf] Render performance baseline is 376ms
+2024-06-03 15:54:06.437 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2024-06-03 15:54:06.918 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/lawmess/Hello.py 
+2024-06-03 15:54:20.388 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 99ms.
+2024-06-03 15:54:20.496 [warning] Creation of workbench contribution 'workbench.contrib.userDataProfiles' took 21ms.
+2024-06-03 15:54:24.293 [info] Started local extension host with pid 8726.
+2024-06-03 15:54:45.562 [info] [perf] Render performance baseline is 124ms

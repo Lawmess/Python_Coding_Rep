@@ -1,7 +1,9 @@
 {
     "userDataProfilesMigration": true,
     "profileAssociations": {
-        "workspaces": {},
+        "workspaces": {
+            "file:///home/lawmess/Python_project": "__default__profile__"
+        },
         "emptyWindows": {
             "1715773975081": "__default__profile__"
         }
@@ -11,7 +13,11 @@
     "telemetry.machineId": "6cb357f101733981a3954fad6bcc82daa0b06169caffb8d64c5a7c3d3b5acde8",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/lawmess/Python_project"
+            }
+        ],
         "emptyWindows": [
             {
                 "backupFolder": "1715773975081"
@@ -20,12 +26,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/lawmess/.config/Code/Backups/1715773975081",
+            "folder": "file:///home/lawmess/Python_project",
+            "backupPath": "/home/lawmess/.config/Code/Backups/7424d17e127c96902064ee0fa298f70f",
             "uiState": {
-                "mode": 1,
-                "x": 341,
+                "mode": 0,
+                "x": 0,
                 "y": 40,
-                "width": 683,
+                "width": 1366,
                 "height": 688
             }
         },
@@ -71,6 +78,20 @@
                                     "id": "workbench.action.reopenClosedEditor",
                                     "label": "&&Reopen Closed Editor",
                                     "enabled": false
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/lawmess/Python_project",
+                                        "path": "/home/lawmess/Python_project",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Python_project"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -153,7 +174,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -163,6 +185,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -296,6 +325,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -491,7 +524,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -820,7 +854,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1346,6 +1381,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1742,7 +1782,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 256,
             "statusBarHeight": 22,
             "windowBorder": false
         }

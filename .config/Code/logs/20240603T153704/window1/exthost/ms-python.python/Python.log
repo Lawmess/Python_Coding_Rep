@@ -6,3 +6,17 @@
 2024-06-03 15:37:57.391 [info] Starting Pylance language server.
 2024-06-03 15:38:58.838 [info] CreateEnv Trigger - Workspace not found for /home/lawmess/Python_project/Trial1.py
 2024-06-03 15:38:58.990 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 15:55:30.292 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-06-03 15:55:30.293 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-06-03 15:55:30.293 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-06-03 15:55:30.293 [info] Experiment 'pythonTestAdapter' is active
+2024-06-03 15:55:31.206 [info] Default formatter is set to null for workspace /home/lawmess/Python_project
+2024-06-03 15:55:31.594 [info] > hatch env show --json
+2024-06-03 15:55:31.597 [info] cwd: .
+2024-06-03 15:55:31.643 [info] Python interpreter path: /bin/python3
+2024-06-03 15:55:32.041 [info] > /bin/python3 -I ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-06-03 15:55:35.589 [info] > pyenv which python
+2024-06-03 15:55:35.589 [info] cwd: .
+2024-06-03 15:55:45.322 [info] Starting Pylance language server.
+2024-06-03 15:55:49.778 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 15:55:49.868 [info] CreateEnv Trigger - Skipping for /home/lawmess/Python_project/Trial1.py

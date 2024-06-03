@@ -104,3 +104,18 @@ git remote origin https://github.com/Lawmess//home/lawmess/Python_project/Trial1
 git add . 
 git commit -m "First Code"
 git push -u origin master
+/bin/python3 /home/lawmess/Python_project/Trial1.py
+git add <Trial1.py>
+git init
+git remote add origin https://github.com/Lawmess/Python_Coding_Rep.git
+git add <Trial1.py? 
+git add <Trial1.py>
+git add .Trial1.py
+clear
+git init
+git add .
+git commit am "Trial"
+git commit -am "Trial"
+git remote add origin https://github.com/Lawmess/Python_Coding_Rep.git
+push origin master
+git push origin master
