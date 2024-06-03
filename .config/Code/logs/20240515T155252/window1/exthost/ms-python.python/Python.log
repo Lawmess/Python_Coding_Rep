@@ -1,0 +1,13 @@
+2024-05-15 15:57:37.931 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-05-15 15:57:37.931 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-05-15 15:57:37.931 [info] Experiment 'pythonTestAdapter' is active
+2024-05-15 15:57:38.960 [info] > conda info --json
+2024-05-15 15:57:39.107 [info] Found: /bin/python3 --> /bin/python3.11
+2024-05-15 15:57:39.110 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-05-15 15:57:42.888 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-05-15 15:57:42.893 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-05-15 15:57:43.358 [info] > /bin/python3 -I ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-15 15:57:43.510 [info] > /usr/bin/python3 -I ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-15 15:57:44.446 [info] Python interpreter path: /bin/python3
+2024-05-15 15:57:55.994 [info] Starting Pylance language server.
+2024-05-15 15:58:05.170 [info] Send text to terminal:  /usr/bin/env /bin/python3 /home/lawmess/.vscode/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 58853 -- /home/lawmess/Hello.py 

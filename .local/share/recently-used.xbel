@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/lawmess/Test.py" added="2024-05-05T10:52:50.965427Z" modified="2024-05-05T10:52:50.965585Z" visited="2024-05-05T10:52:50.965431Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2024-05-05T10:52:50.965503Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/lawmess/Hello.py" added="2024-05-15T11:54:39.866719Z" modified="2024-05-15T11:54:39.866840Z" visited="2024-05-15T11:54:39.866722Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-05-15T11:54:39.866726Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/lawmess/CEHW2.py" added="2024-05-20T10:15:54.580871Z" modified="2024-05-20T10:15:54.580977Z" visited="2024-05-20T10:15:54.580874Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-05-20T10:15:54.580882Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/lawmess/Python_project/Trial1.py" added="2024-06-03T09:42:24.249020Z" modified="2024-06-03T09:42:24.249180Z" visited="2024-06-03T09:42:24.249023Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2024-06-03T09:42:24.249028Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

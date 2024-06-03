@@ -1,0 +1,8 @@
+2024-05-20 14:13:58.750 [info] Experiment 'pythonCreateEnvOnPipInstallcf' is active
+2024-05-20 14:13:58.751 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-05-20 14:13:58.751 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-05-20 14:13:58.751 [info] Experiment 'pythonTestAdapter' is active
+2024-05-20 14:13:59.851 [info] Python interpreter path: /bin/python3
+2024-05-20 14:14:21.196 [info] Starting Pylance language server.
+2024-05-20 14:16:01.773 [info] CreateEnv Trigger - Workspace not found for /home/lawmess/CEHW2.py
+2024-05-20 14:16:01.925 [info] Send text to terminal: /bin/python3 /home/lawmess/CEHW2.py

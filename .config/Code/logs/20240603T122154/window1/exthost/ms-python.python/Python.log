@@ -1,0 +1,22 @@
+2024-06-03 12:22:14.524 [info] Experiment 'pythonCreateEnvOnPipInstallcf' is active
+2024-06-03 12:22:14.524 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-06-03 12:22:14.524 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-06-03 12:22:14.524 [info] Experiment 'pythonTestAdapter' is active
+2024-06-03 12:22:14.524 [info] Python interpreter path: /bin/python3
+2024-06-03 12:22:25.747 [info] Starting Pylance language server.
+2024-06-03 13:18:42.332 [info] CreateEnv Trigger - Workspace not found for /home/lawmess/CEHW2.py
+2024-06-03 13:18:42.460 [info] Send text to terminal: /bin/python3 /home/lawmess/CEHW2.py
+2024-06-03 13:42:32.216 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 13:47:01.618 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 14:04:16.138 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 14:04:35.191 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 14:04:50.465 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 14:04:58.958 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 14:06:34.691 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 14:07:57.866 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 14:08:06.224 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 14:08:15.144 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 14:09:12.072 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 14:10:00.825 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 14:58:48.424 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py
+2024-06-03 15:00:06.824 [info] Send text to terminal: /bin/python3 /home/lawmess/Python_project/Trial1.py

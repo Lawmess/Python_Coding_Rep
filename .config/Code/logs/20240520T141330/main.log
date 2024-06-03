@@ -1,0 +1,24 @@
+2024-05-20 14:13:33.655 [info] update#setState idle
+2024-05-20 14:14:03.690 [info] update#setState checking for updates
+2024-05-20 14:14:03.917 [info] update#setState idle
+2024-05-20 15:14:03.718 [info] update#setState checking for updates
+2024-05-20 15:14:04.071 [info] update#setState idle
+2024-05-20 16:11:14.014 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-20 16:14:02.178 [info] update#setState checking for updates
+2024-05-20 16:14:02.619 [info] update#setState idle
+2024-05-20 17:19:24.404 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-20 17:19:24.905 [info] update#setState checking for updates
+2024-05-20 17:19:38.893 [info] update#setState idle
+2024-05-20 21:21:26.869 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-20 21:21:30.367 [info] update#setState checking for updates
+2024-05-20 21:21:35.542 [error] No ptyHost heartbeat after 12 seconds
+2024-05-20 21:21:46.251 [error] Error: net::ERR_SOCKET_NOT_CONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:108522)
+    at SimpleURLLoaderWrapper.emit (node:events:517:28)
+2024-05-20 21:21:46.715 [info] update#setState idle
+2024-05-20 22:21:34.402 [info] update#setState checking for updates
+2024-05-20 22:21:35.183 [info] update#setState idle
+2024-05-20 22:28:31.594 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-20 23:31:07.275 [warning] No ptyHost heartbeat after 6 seconds
+2024-05-20 23:31:07.480 [info] update#setState checking for updates
+2024-05-20 23:31:15.639 [info] update#setState idle

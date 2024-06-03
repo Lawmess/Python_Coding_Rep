@@ -1,0 +1,20 @@
+2024-05-20 14:14:09.440 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-05-20 14:14:20.447 [info] [Info  - 2:14:20 PM] (734) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-05-20 14:14:20.464 [info] [Info  - 2:14:20 PM] (734) Server root directory: file:///home/lawmess/.vscode/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-20 14:14:20.477 [info] [Info  - 2:14:20 PM] (734) Auto-Indent enabled
+2024-05-20 14:14:21.521 [info] [Info  - 2:14:21 PM] (734) Starting service instance "<default>"
+2024-05-20 14:14:22.391 [info] [Info  - 2:14:22 PM] (734) Setting pythonPath for service "<default>": "/bin/python3"
+2024-05-20 14:14:22.401 [info] [Info  - 2:14:22 PM] (734) Setting environmentName for service "<default>": "3.11.2 (global)"
+2024-05-20 14:14:23.274 [info] [Info  - 2:14:23 PM] (734) Assuming Python version 3.11.2.final.0
+2024-05-20 14:14:27.545 [info] [Info  - 2:14:27 PM] (734) No source files found.
+2024-05-20 14:14:28.125 [info] [Info  - 2:14:28 PM] (734) Setting pythonPath for service "<default>": "/bin/python3"
+2024-05-20 14:14:28.130 [info] [Info  - 2:14:28 PM] (734) Setting environmentName for service "<default>": "3.11.2 (global)"
+2024-05-20 14:14:28.302 [info] [Info  - 2:14:28 PM] (734) Assuming Python version 3.11.2.final.0
+2024-05-20 14:14:30.044 [info] [Info  - 2:14:30 PM] (734) No source files found.
+2024-05-20 14:14:32.632 [info] [Info  - 2:14:32 PM] (734) Background analysis(1) root directory: file:///home/lawmess/.vscode/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-20 14:14:32.676 [info] [Info  - 2:14:32 PM] (734) Background analysis(1) started
+2024-05-20 14:14:38.465 [info] [Info  - 2:14:38 PM] (734) [BG(1)] Long operation: parsing: file:///home/lawmess/.vscode/extensions/ms-python.vscode-pylance-2024.5.1/dist/typeshed-fallback/stdlib/builtins.pyi (3374ms)
+2024-05-20 14:14:40.737 [info] [Info  - 2:14:40 PM] (734) [BG(1)] Long operation: binding: file:///home/lawmess/.vscode/extensions/ms-python.vscode-pylance-2024.5.1/dist/typeshed-fallback/stdlib/builtins.pyi (2029ms)
+2024-05-20 14:14:40.987 [info] [Info  - 2:14:40 PM] (734) [BG(1)] Long operation: analyzing: file:///home/lawmess/Hello.py (6228ms)
+2024-05-20 14:15:43.001 [info] [Info  - 2:15:42 PM] (734) [BG(1)] Long operation: checking: untitled:Untitled-1 (3905ms)
+2024-05-20 14:15:43.021 [info] [Info  - 2:15:43 PM] (734) [BG(1)] Long operation: analyzing: untitled:Untitled-1 (4217ms)
