@@ -1,0 +1,80 @@
+import os
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+import numpy as np
+
+file_path = 'abalone/abalone.data'
+
+column_names = ['Sex', 'Length', 'Diameter', 'Height', 'Whole weight', 'Shucked weight',
+                'Viscera weight', 'Shell weight', 'Rings']
+
+# Check if the file exists
+if os.path.exists(file_path):
+    # Read the data
+    abalone = pd.read_csv(file_path, header=None, names=column_names)
+
+    # Display any missing values
+    print("Missing values in each column:")
+    print(abalone.isnull().sum())
+
+    # Plot boxplot for initial data
+    plt.figure(figsize=(15, 10))
+    abalone.boxplot()
+    plt.title('Boxplot of Abalone Data with Outliers')
+    plt.show()
+
+    # Convert relevant columns to numeric if needed
+    for col in column_names[1:]:
+        abalone[col] = pd.to_numeric(abalone[col], errors ='coerce')
+        #abalone[col] = pd.to_numeric(abalone[col], errors='coerce')
+
+    # Check for any remaining non-numeric values
+    if abalone[column_names[1:]].isnull().any().any():
+        print("Non-numeric values detected and set to NaN. Dropping rows with NaN values.")
+    
+    # Drop rows with NaN values resulting from conversion errors
+    abalone.dropna(subset=column_names[1:], inplace=True)
+    
+    # Convert 'Sex' column to numerical values using one-hot encoding
+    abalone_encoded = pd.get_dummies(abalone, columns=['Sex'])
+    
+    abalone_encoded.replace({True: 1, False: 0}, inplace=True)
+
+    # Display the data with one-hot encoding applied
+    print("Data with one-hot encoding applied:")
+    print(abalone_encoded.head())
+    
+    # Calculate quartiles and IQR
+    Q1 = abalone_encoded.quantile(0.25)
+    Q3 = abalone_encoded.quantile(0.75)
+    IQR = Q3 - Q1
+
+    # Identify outliers and filter them out
+    abalone_outliers = abalone_encoded[~((abalone_encoded < (Q1 - 1.5 * IQR)) | (abalone_encoded > (Q3 + 1.5 * IQR))).any(axis=1)]
+
+    # Plot boxplot without outliers
+    plt.figure(figsize=(15, 10))
+    sns.boxplot(data=abalone_outliers)
+    plt.title('Boxplot of Abalone Data without Outliers')
+    plt.show()
+
+    # Calculate mean and median of 'Height' after outlier removal
+    Mean_analysis = abalone_outliers['Height'].mean()
+    Median_analysis = abalone_outliers['Height'].median()
+
+    print("Mean Height:", Mean_analysis)
+    print("Median Height:", Median_analysis)
+
+    # Display additional statistics if needed
+    data_stats_1 = abalone_outliers.describe()
+    print("Data statistics after outlier removal:")
+    print(data_stats_1)
+
+    # Display histograms if needed
+    abalone_outliers.hist(bins=15, figsize=(15, 10))
+    plt.suptitle('Histograms of Abalone Data without Outliers')
+    plt.show()
+
+else:
+    print("File does not exist. Please check the file path.")
